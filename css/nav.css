@@ -1,0 +1,72 @@
+nav .brand-logo {
+	font-family: 'Anton', sans-serif;
+	width: 200px;
+	height: 64px;
+}
+nav .brand-logo:link,
+nav .brand-logo:visited,
+nav .brand-logo:active{
+	background-color: transparent;
+  transition: color .3s ease;
+	color: #2471fe;
+}
+
+nav .brand-logo:hover{
+	color: #ec398a;
+}
+
+
+a:link,
+a:visited,
+a:active {
+
+}
+a:hover {
+
+}
+
+
+@media only screen and (max-width : 600px) {
+	nav .brand-logo {
+	width: 150px;
+	height: 64px;
+	}
+
+}
+
+p {
+  line-height: 2rem;
+}
+
+nav ul a:link,
+nav ul a:visited,
+nav ul a:active,
+.button-collapse   {
+	background-color: transparent;
+	transition: color .3s ease;
+	color: #2471fe;
+}
+nav ul a:hover {
+	color: #ec398a;
+}
+
+
+.button-collapse:link,
+.button-collapse:visited,
+.button-collapse:active {
+	background-color: transparent;
+  color: #2471fe;
+}
+.button-collapse:hover {
+	color: #ec398a;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}

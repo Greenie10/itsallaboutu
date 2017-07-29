@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+
+ */
+
+
+nav .brand-logo {
+	font-family: 'Anton', sans-serif;
+	width: 200px;
+	height: 64px;
+}
+nav .brand-logo:link,
+nav .brand-logo:visited,
+nav .brand-logo:active{
+	background-color: transparent;
+  transition: color .3s ease;
+	color: #2471fe;
+}
+
+nav .brand-logo:hover{
+	color: #ec398a;
+}
+
+
+a:link,
+a:visited,
+a:active {
+
+}
+a:hover {
+
+}
+
+
+@media only screen and (max-width : 600px) {
+	nav .brand-logo {
+	width: 150px;
+	height: 64px;
+	}
+
+}
+p {
+  line-height: 2rem;
+}
+
+nav ul a:link,
+nav ul a:visited,
+nav ul a:active,
+.button-collapse   {
+	background-color: transparent;
+	color: #2471fe;
+}
+nav ul a:hover {
+	color: #ec398a;
+}
+
+
+.button-collapse:link,
+.button-collapse:visited,
+.button-collapse:active {
+	background-color: transparent;
+  color: #2471fe;
+}
+.button-collapse:hover {
+	color: #ec398a;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.parallax-container {
+  height: auto;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+body {
+	/*background-image: url(../../loveuppp/images/bg.png);*/
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+h1,
+h2 {
+	font-family: 'Anton', sans-serif;
+	color: #FF7B46;
+}
+h1 img {
+	width: 75%;
+}
+.u-heart {
+	width: 80px;
+	height: 80px;
+}
+.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+/* materialize overrides */
+.card a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: white;
+  margin-right: 24px;
+  transition: color .3s ease;
+  text-transform: lowercase !important;
+}
+
+.card a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+}
