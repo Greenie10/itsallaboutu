@@ -1,0 +1,47 @@
+.headline {
+  background-image: url('images/love-u-ppp-headline-sm.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height:310px;
+  margin: 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .headline {
+    background-image: url('images/love-u-ppp-headline.png');
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headline {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .headline {
+    height: 303px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .headline {
+    height: 400px;
+  }
+}
+
+.u-heart {
+	width: 80px;
+	height: 80px;
+}
+
+/*
+$xxs-screen: 320px;
+$xs-screen: 480px;
+$sm-screen: 640px;
+$md-screen: 768px;
+$lg-screen: 960px;
+$xl-screen: 1024px;
+$xxl-screen: 1400px;
+*/
